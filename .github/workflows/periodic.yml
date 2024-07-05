@@ -4,7 +4,7 @@ on: [ push, workflow_dispatch ]
 
 jobs:
   run_tests:
-    runs-on: self-hosted
+    runs-on: self-hosted-osu
     steps:
       # - name: Test command
       #   run: |
